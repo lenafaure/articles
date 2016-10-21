@@ -151,7 +151,7 @@ Well, the problem with the Place Details request is that it lets you query *only
 
 What if we used the `setTimeout` function to query one result per second, therefore never reaching the limit of  10 results per second ?
 
-The setTimeout function used inside a for loop is a well-documented case of unexpected behaviour in JavaScript .
+The setTimeout function used inside a for loop is a [well-documented case of unexpected behaviour in JavaScript](https://medium.com/@shyamseshadri/the-5-types-of-js-developers-i-find-in-interviews-225bd547c421#.7sm5bg578).
 
 This is where [the closure will be of great help](https://github.com/lenafaure/closures/blob/master/closures.md), allowing us to store every value found throughout our 186 results and storing each of them in the `agencies` array :
 
