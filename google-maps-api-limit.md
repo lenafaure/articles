@@ -92,7 +92,7 @@ A Text Search or a Nearby Search request would let you access directly the respo
 
 #### Getting around the 60 results query limit
 
-The **Radar Search** request lets you to search for up to **200 places at once**, but with less detail than is typically returned from a Text Search or Nearby Search request. You basically get and ID for each place, but not much more details about it, not even a name.
+The **Radar Search** request lets you search for up to **200 places at once**, but with less detail than is typically returned from a Text Search or Nearby Search request. You basically get and ID for each place, but not much more details about it, not even a name.
 
 This means that you will have to somehow iterate through your results to call the [Place Details request](https://developers.google.com/places/web-service/details) by passing it the ID of each of the Places you found. The Place Details request is where all the parameters we look for are returned.
 
