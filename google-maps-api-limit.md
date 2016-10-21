@@ -151,7 +151,7 @@ Well, the problem with the Place Details request is that it lets you query *only
 
 What if we used the `setTimeout` function to query one result per second, therefore never reaching the limit of  10 results per second ?
 
-This is where [the closure in JavaScript will be of great help](https://github.com/lenafaure/closures), allowing us to store every value found throughout our 186 results and storing each of them in the `agencies` array :
+This is where [the closure in JavaScript will be of great help](https://github.com/lenafaure/closures/blob/master/closures.md), allowing us to store every value found throughout our 186 results and storing each of them in the `agencies` array :
 
 ```
 // Using setTimeout and closure because limit of 10 queries /second for getDetails //
