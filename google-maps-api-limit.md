@@ -96,7 +96,7 @@ The **Radar Search** request lets you to search for up to **200 places at once**
 
 This means that you will have to somehow iterate through your results to call the [Place Details request](https://developers.google.com/places/web-service/details) by passing it the ID of each of the Places you found. The Place Details request is where all the parameters we look for are returned.
 
-We will do in the callback of our `service.radarSearch` function: 
+This will take place in the callback of our `service.radarSearch` function: 
 
 ```
 // Create array for storing results 
