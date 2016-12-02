@@ -34,7 +34,7 @@ If I could find a way to fetch as much results as possible for the Paris area us
 
 I set up a project on localhost (I would need to use PHP later to write the results in a file), and followed the JavaScript API documentation to initiate the map (get it [here](https://developers.google.com/maps/documentation/javascript/tutorial)) and make a Radar Search request (get it [here](https://developers.google.com/places/web-service/search)) : 
 
-```
+```javascript
 var map;
 var infowindow;
 // Defining the keywords for filtering the search
@@ -98,7 +98,7 @@ This means that you will have to somehow iterate through your results to call th
 
 This will take place in the callback of our `service.radarSearch` function: 
 
-```
+```javascript
 // Create array for storing results 
 var agencies = [];
 
@@ -155,7 +155,7 @@ The setTimeout function used inside a for loop is a [well-documented case of une
 
 This is where [the closure will be of great help](https://github.com/lenafaure/closures/blob/master/closures.md), allowing us to store every value found throughout our 186 results and storing each of them in the `agencies` array :
 
-```
+```javascript
 // Using setTimeout and closure because limit of 10 queries /second for getDetails //
 
 (function (j) {
@@ -177,7 +177,7 @@ This is where [the closure will be of great help](https://github.com/lenafaure/c
 
 In the end, the full JavaScript code snippet is : 
 
-```
+```javascript
 var map;
 var infowindow;
 var searchwords = "agence+web";
