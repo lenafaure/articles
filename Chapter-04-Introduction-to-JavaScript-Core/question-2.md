@@ -1,6 +1,6 @@
 # The `var ` keyword and the variable's scope
 
-In JavaScript, scope determines where your program can see and use certain variables. There are two kinds of scope : global and local.
+In JavaScript, scope determines where your program can see and use certain variables. There are two kinds of scope: global and local.
 
 **Global** : variables defined *outside* a function are global and accessible from anywhere in your code.
 
