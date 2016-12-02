@@ -4,11 +4,7 @@
 
 Functions in JavaScript are object, and as objects they have several methods. **`call()`** and **`apply()`** are part of these predefined JavaScript function methods. 
 
-When do we use `call`  and `apply` in our code ? Both methods can be used to invoke a function, and both methods must have the owner object as first parameter. 
-
-In other words, we use these two methods when we want full control over what the keyword `this` refers to: if we have a function that refers to the keyword `this`, we need to make sure that `this` will be what we expect it to be when we invoke the function.
-
-
+When do we use `call`  and `apply` in our code ? We use these two methods when we want full control over what the keyword `this` refers to: if we have a function that refers to the keyword `this`, we need to make sure that `this` will be what we expect it to be when we invoke the function. Both methods can be used to invoke a function, and both methods must have the owner object as first parameter. 
 
 Consider this code:
 
