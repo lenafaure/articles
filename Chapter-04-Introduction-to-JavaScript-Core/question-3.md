@@ -103,7 +103,7 @@ console.log(myName); // "Carlos"
 
 → [Try it yourself](https://jsbin.com/jiciyunaso/edit?js,console)
 
-Even if we are changing the `myName` variable inside of the function `myNameIs`, when we print it after calling the function it still has the value "Carlos". That is beacsue when primitive types are passed, they are passed **by value**.
+Even if we are changing the `myName` variable inside of the function `myNameIs`, when we print it after calling the function it still has the value "Carlos". That is because when primitive types are passed, they are passed **by value**.
 
 We are passing a copy of `myName`: anything you do to `myName` inside the body of the function won't affect the `myName` variable in the global scope because you are passing a copy of `myName`, and not the original `myName` variable.
 
