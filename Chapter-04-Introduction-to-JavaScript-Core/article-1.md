@@ -47,7 +47,7 @@ function sayHello() {
   console.log(greeting);
 }
 
-sayHello(); 			// Prints "Hi, I am a local variable"
+sayHello(); // Prints "Hi, I am a local variable"
 console.log(greeting); 	// Prints "Hi, I am a global variable"
 
 ```
